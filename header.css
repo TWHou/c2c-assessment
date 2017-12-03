@@ -1,0 +1,23 @@
+header {
+  background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  color: #fff;
+}
+
+header input {
+  border: 1px solid #273B65;
+  border-radius: 2px;
+}
+
+header input[type="submit"] {
+  background: #3C5894;
+  color: #fff;
+}
+
+header a {
+  color: #9DB4E4;
+  text-decoration: none;
+}
