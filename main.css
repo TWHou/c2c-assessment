@@ -1,0 +1,10 @@
+main {
+  background: #edf0f5;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main > div {
+  width: 45%;
+}
