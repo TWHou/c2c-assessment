@@ -1,6 +1,33 @@
+footer {
+  margin: 1%;
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 footer ul {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
+}
+
+footer li {
+  padding: 3px;
+}
+
+footer hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #edf0f5;
+}
+
+footer td {
+  padding-right: 5px;
+}
+
+footer .copyright {
+  margin-top: 20px;
 }
