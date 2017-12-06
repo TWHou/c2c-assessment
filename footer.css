@@ -3,6 +3,10 @@ footer {
   font-size: 0.8rem;
 }
 
+footer .container {
+  margin: auto;
+}
+
 footer a {
   text-decoration: none;
 }
