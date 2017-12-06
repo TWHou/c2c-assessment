@@ -11,6 +11,10 @@ header .container {
   color: #fff;
 }
 
+header form {
+  font-size: 0.6rem;
+}
+
 header input {
   border: 1px solid #273B65;
   border-radius: 2px;
