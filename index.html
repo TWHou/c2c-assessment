@@ -53,43 +53,37 @@
   </header>
   <main>
     <div class="container">
-      <div>
+      <div class="left">
         <h2>Connect with friends and the<br>world around you on Facebook.</h2>
-        <div>
+        <div class="blurb">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851565_602269956474188_918638970_n.png?oh=27689fd23ad24387d0e51c5356396a30&amp;oe=5AD5DBF5" alt="">
           <div>
-            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851565_602269956474188_918638970_n.png?oh=27689fd23ad24387d0e51c5356396a30&amp;oe=5AD5DBF5" alt="">
-          </div>
-          <div>
-            <span> See photos and updates </span>
+            <span class="lead"> See photos and updates </span>
             <span> from friends in News Feed. </span>
           </div>
         </div>
-        <div>
+        <div class="blurb">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851585_216271631855613_2121533625_n.png?oh=7df497332d05c12cb617e0e934da4734&amp;oe=5A8D4620" alt="">
           <div>
-            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851585_216271631855613_2121533625_n.png?oh=7df497332d05c12cb617e0e934da4734&amp;oe=5A8D4620" alt="">
-          </div>
-          <div>
-            <span> Share what's new </span>
+            <span class="lead"> Share what's new </span>
             <span> in your life on your Timeline. </span>
           </div>
         </div>
-        <div>
+        <div class="blurb">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851558_160351450817973_1678868765_n.png?oh=bf9859ce8b08c56e840c8894bf4584cd&amp;oe=5A961CD8" alt="">
           <div>
-            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/851558_160351450817973_1678868765_n.png?oh=bf9859ce8b08c56e840c8894bf4584cd&amp;oe=5A961CD8" alt="">
-          </div>
-          <div>
-            <span> Find more </span>
+            <span class="lead"> Find more </span>
             <span> of what you're looking for with Facebook Search. </span>
           </div>
         </div>
       </div>
-      <div>
+      <div class="right">
         <h2>Sign Up</h2>
         <div>It’s free and always will be.</div>
         <div>
           <form>
             <div>
-              <div>
+              <div class="row">
                 <div>
                   <input type="text" name="firstname" placeholder="First Name">
                 </div>
@@ -105,25 +99,30 @@
               </div>
               <div>
                 <div>Birthday</div>
-                <div>
-                  <span></span>
-                  <a href="#">Why do I need to provide my birthday?</a>
+                <div class="row">
+                  <span id="bday_selector"></span>
+                  <a href="#" class="note">Why do I need to provide my birthday?</a>
                 </div>
               </div>
               <div>
-                <label class="_58mt" for="u_0_6">Female</label>
-                <input type="radio" name="sex" value="1">
-                <label class="_58mt" for="u_0_7">Male</label>
-                <input type="radio" name="sex" value="2">
+                <label>
+                 <input type="radio" name="sex" value="1">
+                  Female
+                </label>
+                <label>
+                  <input type="radio" name="sex" value="2">
+                  Male
+                </label>
               </div>
               <div>
-                <p>By clicking Create Account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may receive SMS Notifications from Facebook and can opt out at any time.</p>
+                <p class="note">By clicking Create Account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may receive SMS Notifications from Facebook and can opt out at any time.</p>
               </div>
               <div>
                 <button type="submit" name="websubmit">Create Account</button>
               </div>
             </div>
           </form>
+          <hr>
           <div>
             <a href="#">Create a Page</a> for a celebrity, band or business.
           </div>
@@ -132,22 +131,22 @@
     </div>
   </main>
   <footer>
-    <ul>
-      <li>English (US)</li>
-      <li><a href="#">Español</a></li>
-      <li><a href="#">Français (France)</a></li>
-      <li><a href="#">中文(简体)</a></li>
-      <li><a href="#">العربية</a></li>
-      <li><a href="#">Português (Brasil)</a></li>
-      <li><a href="#">Italiano</a></li>
-      <li><a href="#">한국어</a></li>
-      <li><a href="#">Deutsch</a></li>
-      <li><a href="#">हिन्दी</a></li>
-      <li><a href="#">日本語</a></li>
-      <li><a href="#">More...</a></li>
-    </ul>
-    <hr>
-    <div>
+    <div class="container">
+      <ul>
+        <li>English (US)</li>
+        <li><a href="#">Español</a></li>
+        <li><a href="#">Français (France)</a></li>
+        <li><a href="#">中文(简体)</a></li>
+        <li><a href="#">العربية</a></li>
+        <li><a href="#">Português (Brasil)</a></li>
+        <li><a href="#">Italiano</a></li>
+        <li><a href="#">한국어</a></li>
+        <li><a href="#">Deutsch</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">日本語</a></li>
+        <li><a href="#">More...</a></li>
+      </ul>
+      <hr>
       <table>
         <tbody>
           <tr>
@@ -189,9 +188,9 @@
           </tr>
         </tbody>
       </table>
-    </div>
-    <div class="copyright">
-      Facebook © 2017
+      <div class="copyright">
+        Facebook © 2017
+      </div>
     </div>
   </footer>
   <script src="index.js"></script>

@@ -7,6 +7,14 @@ main {
   font-size: 15px;
 }
 
+main h2 {
+  margin-bottom: 5px;
+}
+
+main a {
+  text-decoration: none;
+}
+
 main .container {
   margin: auto;
   display: flex;
@@ -15,6 +23,74 @@ main .container {
   font-size: 15px;
 }
 
-main .container > div {
-  width: 48%;
+main .left {
+  width: 60%;
+}
+
+main .right {
+  width: 37%;
+}
+
+main .blurb {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+main .blurb img {
+  padding-right: 20px;
+  width: 50px;
+}
+
+main .blurb .lead {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+main .right div {
+  margin-bottom: 10px;
+}
+
+main .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .row > div {
+  width: 47%;
+  margin-bottom: 0;
+}
+
+main input:not([type=radio]) {
+  width: 100%;
+  height: 20px;
+/*  margin: 5px 0;*/
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #9DB4E4;
+  font-size: 1rem;
+}
+
+#bday_selector {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+main .note {
+  font-size: 0.7rem;
+}
+
+main button {
+  background-color: #69a74e;
+  color: white;
+  padding: 5px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+main hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #9DB4E4;
 }
